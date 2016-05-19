@@ -1,0 +1,48 @@
+fetch는 변경된 것만 알아오고
+pull은 변경된 것과 내꺼까지 합쳐서 가져오는 것
+log는 작업의 내용을 뽑아주는 거고 status는 깃 상태
+
+add하고 commit 하면 올려짐
+
+staging area : add는 했지만 commit은 안한 상태
+commited 
+modified
+
+working tree가 작업하는 곳
+git diff 뭐가 추가되고 제거됬는지 알려줌
+
+리파지토리 파일이름과 똑같이 해서 만들어줌
+
+git remote add origin https://github.com/yoonyeong/gittest.git
+
+git remote 쳐보면 origin 이 뜸 원격저장소에 최초는 origin임 연동된 것임
+origin이 원격을 가리킴
+
+git push origin master하면 리파지토리에 뜸!
+master부분이 branch 이름임. default값은 master
+
+git branch
+
+local branch remote branch can be different
+pull can get my focusing branch
+
+data can get lost
+연동되어있음
+
+master는 완성된 것만..건드리지말기
+
+빨간색은 원격 초록색은 로칼
+
+git checkout -b yoonbranch
+
+초록색은 focusing 되어있는 branch 임
+
+git branch -a 하면 보임.
+
+그 담에 push하거나 하면 포커싱된 쪽에 올라가게됨
+
+git push origin yoonbranch 하면 만들어진 branch가 원격에도 반영됨
+
+git pull은 최신 작업내용만 가져옴
+
+원격> 로컬 순서
