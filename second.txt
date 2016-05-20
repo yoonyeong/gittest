@@ -45,12 +45,12 @@ git push origin yoonbranch 하면 만들어진 branch가 원격에도 반영됨
 
 git pull은 최신 작업내용만 가져옴
 
-원격> 로컬 순서
+(원격> 로컬 순서)ppt 참조
 
 
 내가 정민이꺼 clone해서 받아오고 받아온 파일을 오른쪽 버튼 눌러서 bash가서 
 git pull origin master하면 정민이꺼 새로운 update를 받아오게 됨
 
-안드로이드 아스날 arsnal gradle통해서 남의꺼 사용하는 것 
-butteknife
+안드로이드 아스날 arsnal gradle통해서 남의 것 사용하는 것 
+butterknife
 이미지 로딩
